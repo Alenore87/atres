@@ -23,7 +23,6 @@
     color: #fff;
     width: 100%;
     font: 1.2em "roboto";
-    border-radius: 5px;
   }
   .navigation a, .navigation span {
     display: block;
@@ -44,9 +43,11 @@
   }
   .navigation .open a, .navigation .open span {
     background: #000;
+    border-radius: 5px;
   }
   .navigation a:hover, .navigation a:focus, .navigation a:active {
     text-decoration: underline;
+    border-radius: 5px;
   }
   .navigation .subMenu {
     font-size: .9em;
@@ -54,10 +55,12 @@
     margin: 0;
     padding: 0;
     border-bottom: 1px solid #666;
+    border-radius: 5px;
   }
   .navigation ul.subMenu a {
     background: none;
     padding: 3px 20px;
+    border-radius: 5px;
   }
     
   ul {
