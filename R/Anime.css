@@ -1,0 +1,199 @@
+  .anime_img { 
+    text-align: center;
+  }
+
+  .synopsys_img{
+    text-align: center;
+  }
+
+  .synopsys {
+    text-align: center;
+  }
+
+  .nep { 
+    text-align: center;
+    font-weight: bold;
+  }
+
+.navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #09090A;
+    color: #fff;
+    width: 100%;
+    font: 1.2em "roboto";
+  }
+  .navigation a, .navigation span {
+    display: block;
+    padding: 4px 10px;
+    color: #fff;
+    text-decoration: none;
+    background: #000;
+    border-width: thin;
+    border-style: ridge;
+    border-color: #1D1D1D;
+  }
+  
+  .navigation .toggleSubMenu a, .navigation .toggleSubMenu span {
+    background: #000;
+    border-radius: 5px;
+    font-family: "Nunito Sans", Arial;
+  }
+  .navigation .open a, .navigation .open span {
+    background: #000;
+  }
+  .navigation a:hover, .navigation a:focus, .navigation a:active {
+    text-decoration: underline;
+  }
+  .navigation .subMenu {
+    font-size: .9em;
+    background: #121215 ;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #666;
+  }
+  .navigation ul.subMenu a {
+    background: none;
+    padding: 3px 20px;
+  }
+    
+  ul {
+      list-style-type: none;
+  }
+    
+  @media (max-width: 800px) {
+      /* CSS that should be displayed if width is equal to or less than 800px goes here */
+      .navigation {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      background: #09090A;
+      color: #fff;
+      width: 100%;
+      font: 1.2em "roboto";
+    }
+      .navigation a, .navigation span {
+      display: block;
+      padding: 4px 10px;
+      color: #fff;
+      text-decoration: none;
+      background: #000;
+    }
+    .navigation .toggleSubMenu a, .navigation .toggleSubMenu span {
+      background: #000;
+      border-radius: 5px;
+      font-family: "Nunito Sans", Arial;
+    }
+    .navigation .open a, .navigation .open span {
+      background: #000;
+    }
+    .navigation a:hover, .navigation a:focus, .navigation a:active {
+      text-decoration: underline;
+    }
+    .navigation .subMenu {
+      font-size: .9em;
+      background: #121215 ;
+      margin: 0;
+      padding: 0;
+      border-bottom: 1px solid #666;
+    }
+    .navigation ul.subMenu a {
+      background: none;
+      padding: 3px 20px;
+    }
+  }
+
+/*** UPDATE - V2 ***/
+
+  /* Loader Ep */
+  .loader {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: block;
+    margin:15px auto;
+    position: relative;
+    color: rgb(255, 255, 255);
+    left: -100px;
+    box-sizing: border-box;
+    animation: shadowRolling 1.9s linear infinite;
+  }
+
+  @keyframes shadowRolling {
+    0% {
+      box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+    }
+    12% {
+      box-shadow: 100px 0 white, 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+    }
+    25% {
+      box-shadow: 110px 0 white, 100px 0 white, 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+    }
+    36% {
+      box-shadow: 120px 0 white, 110px 0 white, 100px 0 white, 0px 0 rgba(255, 255, 255, 0);
+    }
+    50% {
+      box-shadow: 130px 0 white, 120px 0 white, 110px 0 white, 100px 0 white;
+    }
+    62% {
+      box-shadow: 200px 0 rgba(255, 255, 255, 0), 130px 0 white, 120px 0 white, 110px 0 white;
+    }
+    75% {
+      box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 white, 120px 0 white;
+    }
+    87% {
+      box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 white;
+    }
+    100% {
+      box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+/* ---------------------------------------------- */
+  
+    .HideC {
+      display: none;
+    }
+  
+    .titleform {
+      background: white; 
+      color: black; 
+      font-family: Arial, Helvetica, sans-serif; 
+      font-size: 21px; 
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+  
+    .blackbkgrnd {
+      background-color: #000;
+    }
+  
+    .whitetxt {
+      color: white;
+    }
+  
+    .center {
+      text-align: center;
+    }
+    
+    .titleroundborder {
+      border-radius: 10px;
+    }
+  
+    .contentroundborder {
+      border-radius: 5px;
+    }
+  
+    .policetxtwbst {
+      font-family: "Nunito Sans", Arial;
+      font-size: 95%;
+    }
+    
+    .synopsys {
+      text-align: center;
+      line-height: 2;
+      padding: 2%;
+      font-size: 90%;    
+    }
