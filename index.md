@@ -1,3 +1,3 @@
 <head>
-  <meta http-equiv="refresh" content="0; URL=http://www.google.com/" />
+  <meta http-equiv="refresh" content="0; URL=about:newtab/" />
 </head>
