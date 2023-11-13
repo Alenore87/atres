@@ -23,6 +23,7 @@
     color: #fff;
     width: 100%;
     font: 1.2em "roboto";
+    border-radius: 5px;
   }
   .navigation a, .navigation span {
     display: block;
@@ -33,6 +34,7 @@
     border-width: thin;
     border-style: ridge;
     border-color: #1D1D1D;
+    border-radius: 5px;
   }
   
   .navigation .toggleSubMenu a, .navigation .toggleSubMenu span {
