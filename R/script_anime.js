@@ -149,4 +149,4 @@ setTimeout(function() {
 
 setTimeout(function() {
   $("#animelinks").slideDown(900).removeClass("HideC");
-}, 1700);
+}, 1999);
