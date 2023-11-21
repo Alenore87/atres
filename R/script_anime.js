@@ -148,5 +148,5 @@ setTimeout(function() {
 }, 1200);
 
 setTimeout(function() {
-  $("#animelinks").slideDown(900).removeClass("HideC");
+  $("#animelinks").slideDown(900);
 }, 1999);
