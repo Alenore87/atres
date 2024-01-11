@@ -1,5 +1,6 @@
     // <!--[ Displaying Chapter ]-->
 
+        const folderSL = `${link}${wTitle}`; 
         $.ajax({
           url: folderSL,
           success: function(data) {
