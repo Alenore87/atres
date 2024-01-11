@@ -1,5 +1,3 @@
-    // <!--[ Displaying Chapter ]-->
-
         $.ajax({
           url: folderSL,
           success: function(data) {
