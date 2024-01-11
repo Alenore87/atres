@@ -1,4 +1,3 @@
-        const folderSL = `${wlink}${wTitle}`; 
         $.ajax({
           url: folderSL,
           success: function(data) {
