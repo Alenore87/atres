@@ -1,0 +1,420 @@
+    li.sosmed {
+      display: none;
+    }
+
+    #donateM {
+      display: none; 
+    }
+
+    .img-donateM {
+    width: 0%; 
+    animation: infinite;
+    -webkit-animation-name: img-donateM;
+    animation-name: img-donateM;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes img-donateM {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    }
+    @keyframes img-donateM {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    } 
+       
+    @media (max-width: 800px) {
+      #donateM {
+        display: initial;
+      }
+
+      .img-donateM {
+        width: 31%;
+      }
+
+  }
+
+  /* SL */
+    .byline.post-timestamp {display : none}
+    .menu.right {display : none}
+    #disqus_thread {display : none}
+
+    .server_option {padding: 0% 2% 0% 2%;border-radius: .3rem;margin-bottom: 1.66rem;font-size:87%;} #server .DagPlayOpt:hover {background: rgb(44, 10, 10);}.servers {margin-bottom: 10px;overflow: scroll;overflow-y: hidden;text-align:center;gap: 5px;}.tabs span {color: #525252;cursor: pointer;padding: 2px 5px;border-radius: .25rem;font-weight: 600;font-size: .98em;transition: all .15s;}.tabs span.active {color: #eee;}.DagTo .icon:hover {background: #141414;}.tabs span:hover,.tabs a:hover {color: #787878;}.serverEpisode {display: none}.video-nav .icon a {color: #888}
+
+
+    /* Tabs */
+    .tabs .tablinks{color:#626262;cursor:pointer;padding:2px 5px;border-radius:.25rem;font-weight:500;font-size:.98em;-webkit-transition:all .15s;-moz-transition:all .15s;transition:all .15s;}
+    .tabs .tablinks.active{color:var(--light-gray);}
+
+    .tabs span {color: #525252;cursor: pointer;padding: 2px 5px;border-radius: .25rem;font-weight: 600;font-size: .98em;transition: all .15s;}.tabs span.active {color: #eee;}.DagTo .icon:hover {background: #141414;}.tabs span:hover,.tabs a:hover {color: #787878;}.serverEpisode {display: none}.video-nav .icon a {color: #888}
+
+
+    section .head .tabs{float:right;margin-top:2px;}
+    section .head .tabs a,section .head .tabs span{color:#525252;cursor:pointer;padding:2px 5px;border-radius:.25rem;font-weight:500;font-size:.98em;-webkit-transition:all .15s;-moz-transition:all .15s;transition:all .15s;white-space: nowrap;}
+    section .head .tabs a:hover,section .head .tabs span:hover{color:#787878;}
+    section .head .tabs a:active,section .head .tabs span:active{box-shadow:0 0 0 .2rem rgba(248,248,248,.08);}
+    section .head .tabs a.active,section .head .tabs span.active,section .head .tabs li.active span{color:#eee;}
+
+
+    /* Random Post Multi Tab Dagruel */
+    .series-gen ul.nav-tabs{display:flex;list-style:none;margin:0;padding:0;overflow:hidden;}
+    .series-gen ul.nav-tabs li{flex:1;cursor:pointer;}
+    .series-gen ul.nav-tabs li:hover span{color:#6e4f9d;}
+
+
+
+    .DagTo{margin-bottom:25px;width:100%;background:var(--gray-dark);border-radius:2px;padding-bottom:0}.DagPlaArea{width:100%;transition:width .2s;position:relative;padding:0;overflow:hidden;line-height:20px;border-bottom-right-radius:.3rem;border-bottom-left-radius:.3rem;}#server{overflow:hidden;}#server ul{list-style-type:none;margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline}#server ul li{display:inline-block;}#server .DagPlayOpt{width:58px;padding:5px 10px;text-align:center;min-width: 38px;font-weight:400;cursor:pointer;font-size:14px;background: var(--secondary);border-radius: 3px;margin: 0 2px 10px;}#server .DagPlayOpt.on{color:#fff;background:var(--primary);}.video-content{background:#000;overflow:hidden}#embed_holder,#pembed,.video-content{position:relative}#pembed{max-width:100%;height:0;padding-bottom:56.25%}.playerload{width:80px;height:80px;border-radius:150px;border:15px solid #fff;border-top-color:rgba(0,0,0,.3);box-sizing:border-box;position:absolute;top:50%;left:50%;margin-top:-38px;margin-left:-38px;animation:playerload 1.2s linear infinite;-webkit-animation:playerload 1.2s linear infinite}@keyframes playerload{0%{transform:rotate(0deg)}to{transform:rotate(360deg)}}@-webkit-keyframes playerload{0%{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(360deg)}}#embed_holder embed,#embed_holder iframe{z-index:1;position:absolute;border:none;width:100%;height:100%;top:0;left:0;margin:0;padding:0}.video-nav{display: flex;justify-content: space-between;background: var(--secondary);position:relative;overflow:hidden;font-size:.85em;color:#888;height:38px;line-height:38px;}.itemleft{overflow:hidden;font-weight:300;}.itemleft .icon,.itemright .icon{display:inline-flex;align-items:center;gap:2px;padding:0 8px;cursor:pointer}.itemleft .icon.turnedOff{color:#fff;z-index:999999;position:relative;}.video-nav .icon svg,span.light:before{color:#ababab;vertical-align:middle;border-radius:10px}.video-nav .icon svg{width:14px;height:14px;font-size:14px;}span.light:before{content:'';background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20,11H23V13H20V11M1,11H4V13H1V11M13,1V4H11V1H13M4.92,3.5L7.05,5.64L5.63,7.05L3.5,4.93L4.92,3.5M16.95,5.63L19.07,3.5L20.5,4.93L18.37,7.05L16.95,5.63M12,6A6,6 0 0,1 18,12C18,14.22 16.79,16.16 15,17.2V19A1,1 0 0,1 14,20H10A1,1 0 0,1 9,19V17.2C7.21,16.16 6,14.22 6,12A6,6 0 0,1 12,6M14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21H14M11,18H13V15.87C14.73,15.43 16,13.86 16,12A4,4 0 0,0 12,8A4,4 0 0,0 8,12C8,13.86 9.27,15.43 11,15.87V18Z' fill='%233c97f3'/%3E%3C/svg%3E") center/20px no-repeat;display:inline-block;margin-right:7px;min-width:20px;min-height:20px}.PlayShare{overflow:hidden;width:100%;padding-top:0;line-height:20px}#shadow,.PlayShare.None{display:none;transition:.5s}.ShareSection{overflow:hidden;padding:7px}.ShareSection b{color:#222d34;font-size:16px;margin-right:5px;line-height:22px;border-right:2px solid #fff;padding-right:10px;font-weight:500}.ShareSection b,.sosmed,.sosmed a{display:inline-block}.sosmed a{width:auto;height:auto;font-size:12px;color:#fff!important;border-radius:4px;background:#444;margin:6px;padding:3px 15px}a.shrFB{background:#1877f2}a.shrTW{background:#1da1f2}#shadow{position:fixed;left:0;top:0;bottom:0;background:rgba(0,0,0,.93);width:100%;height:100%;z-index:1;transition:all .5s ease}.DaBlock{display:none;transition:.5s}.DaBlock{display:block!important}
+    .resIn {background:var(--secondary);min-height: 50px;padding: 12px;color: #fff;display: none;border-radius: .3rem;}.server_option {padding: 0% 2% 0% 2%;border-radius: .3rem;margin-bottom: 1.66rem;font-size:87%;} .servers {margin-bottom: 10px;overflow: scroll;overflow-y: hidden;text-align:center;gap: 5px;}.tabs span {color: #525252;cursor: pointer;padding: 2px 5px;border-radius: .25rem;font-weight: 600;font-size: .98em;transition: all .15s;}.tabs span.active {color: #eee;}.DagTo .icon:hover {background: #141414;}.tabs span:hover,.tabs a:hover {color: #787878;}.serverEpisode {display: none}.video-nav .icon a {color: #888}
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .servers::-webkit-scrollbar {
+    display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .servers {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    }
+
+  .icon.DagShre.DagPlayOpt:empty {
+    display: none;
+  }
+
+  h1.title {
+    text-align: center;
+  }
+
+  .btndspl {
+    display: none ;
+  }
+  
+  .chptdspl {
+    display: none ;
+    text-align: center;
+  }
+
+  #ChptNbr.div:hover {
+    background-color: rgb(173, 85, 255); /* Add a dark-grey background on hover */
+    opacity: 1;
+  }
+
+  #Info1 {
+    font-size: 140%; 
+    text-align: center; 
+    align-items: center; 
+    margin: 10px 0 0 0;
+  }
+
+  .ChaptersList {
+    font-size: 140%; 
+    text-align: center; 
+    align-items: center;
+    margin-top: 0;
+  }
+
+  #ChaptIMG {  
+    max-width: 100%;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .navigationSC {
+    font-size: 150%;
+    max-width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    width: 100%;
+    font-family: "Lilita One";
+    align-items: center;
+    text-align: center; 
+    align-content: center;
+    }
+
+  .navigationSC a, .navigationSC span {
+  display: block;
+  padding: 4px 10px;
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+  }
+
+  .navigationSC svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+  }
+
+  .navigationSC a:hover, .navigationSC a:focus, .navigationSC a:active {
+  text-decoration: underline;
+  list-style-type: none;
+  }
+
+  ul {
+      list-style-type: none;
+  }
+  
+  ul.navMobile {
+    display: none;
+  }
+
+  .HideMarker {
+    list-style: none;
+  }
+
+  /* Close Chapter Button */
+
+  #CloseChpt svg {
+    fill: white;
+  }
+
+  #CloseChpt a {
+    float: right; 
+    list-style-type: none; 
+    margin: 5px 47px 0 0; 
+    transform: scale(1.5);
+  }
+
+  /* Button Back to Top */
+  #BtnTop {
+    display: inline-block;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+  }
+
+  #BtnTop svg {
+    width: 30px;
+    height: 30px;
+    fill: #585858;
+  }
+
+  /* Button chapterList boutton Mobile */
+  #BtnChLiM {
+    display: inline-block;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 16px; /* Place the button at the bottom of the page */
+    left: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+  }
+
+  #BtnChLiM svg {
+    width: 30px;
+    height: 30px;
+    fill: #585858;
+    margin-bottom: 4px;
+  }
+
+      
+ #loaderSC {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid rgb(145, 0, 0);
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+        0% {
+        transform: rotate(0deg);
+        }
+        100% {
+        transform: rotate(360deg);
+        }
+    } 
+
+    #fsbtn {
+    background-color: transparent;
+    width: 7.5%; 
+    }
+
+    #mdl-lecteur {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    z-index: 999;
+    overflow-y: auto; /* Ajoutez cette ligne pour permettre le défilement vertical */
+    overflow-x: hidden; /* Bloquer le scrolling horizontal */
+    /* scrollbar mdl-lecteur - FF */
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: red rgb(17, 17, 17); 
+    }
+
+  /* scrollbar mdl-lecteur - Other */
+  .mdl-lecteur::-webkit-scrollbar-track {
+    background: #191919;
+  } 
+
+  .mdl-lecteur-webkit-scrollbar {
+    width: thin; 
+  }
+
+  .mdl-lecteur::-webkit-scrollbar-thumb {
+    background-color: rgb(124, 0, 0);  /* color of the scroll thumb */
+  }
+
+  .mdl-lecteur:-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+  }
+
+
+  .HideScroll {
+    scrollbar-width: none; /* Masque la barre de défilement */
+  }
+
+  /* navigationSC nombre chapitre */
+  .BtnChptNav {
+    display: inline-block;
+    color: red;
+    cursor: pointer; /* Add a mouse pointer on hover */
+  }
+
+  .BtnChptNav button {
+    font-size: 140%;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    background-color: black;
+    border-radius: 39%;
+    border-width: 2px;
+    border-color: #9c31ff;
+  }
+
+  /* SL Title */
+  .mdl-title.pdy.mab.fz6.navigationSC {
+    margin: 30px 0 0 71.5px;
+    cursor: pointer;
+  }
+
+  /* Choix chapitre LL */
+  .chapitreLL {
+    background: transparent;
+    color: #fff;
+    font-size: 21.42px;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+    font-family: "Lilita One";
+    border-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    text-align-last:  center; 
+      /* scrollbar chapitre LL - FF */
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: red rgb(43, 43, 43); 
+  } 
+
+  .chapitreLL option { 
+    background: #191919;
+  } 
+
+  /* scrollbar chapitre LL - Other */
+  .chapitreLL::-webkit-scrollbar-track {
+    background: rgb(43, 43, 43);
+  } 
+
+  .chapitreLL-webkit-scrollbar {
+    width: thin; 
+  }
+
+  .chapitreLL::-webkit-scrollbar-thumb {
+    background-color: red;  /* color of the scroll thumb */
+  }
+
+
+  .chapitreLL option[value=""] { 
+      display: none; 
+  } 
+
+  .chapitreLL option[value="CHPTNOW"] { 
+      display: none; 
+  } 
+
+  /* ChapitreLL on page */
+  #SelectOnPage {
+    display: none;
+    margin-left: -3px;
+    font-size: 17.53px;
+  }
+
+  #SelectOnPage option { 
+    color: white;
+  }
+
+    @media screen and (orientation: portrait) {
+        #ChaptIMG {  
+        width: 200%;
+        }
+
+        #fsbtn {
+        width: 50px; 
+        height: 50px;
+        }
+
+        #BtnTop {
+        bottom: 20px; /* Place the button at the bottom of the page */
+        }
+
+        #BtnTop svg {
+        width: 27px;
+        height: 27px;
+        fill: #2D2D30;
+        }
+    }
+
+
+    @media screen and (max-device-width: 480px)  {
+        .mdl-title.pdy.mab.fz6.navigationSC {
+            margin: 30px 0 0 37px;
+        }
+
+        #CloseChpt a {
+            margin: 5px 23px 0 0; 
+        }
+
+        #SelectOnPage {
+            color: #a23eff;
+        }
+    }
