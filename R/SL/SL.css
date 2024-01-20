@@ -318,10 +318,6 @@
     cursor: pointer; /* Add a mouse pointer on hover */
   }
 
-  .BtnChptNav:hover {
-    background-color: #FF1493;
-  }
-
   .BtnChptNav button {
     font-size: 140%;
     cursor: pointer; /* Add a mouse pointer on hover */
