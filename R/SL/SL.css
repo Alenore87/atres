@@ -108,6 +108,11 @@
   .btndspl {
     display: none ;
   }
+
+  .btndspl:hover {
+    font-size: 170%;
+    transition: font-size 0.2s;
+  }
   
   .chptdspl {
     display: none ;
@@ -309,17 +314,21 @@
   /* navigationSC nombre chapitre */
   .BtnChptNav {
     display: inline-block;
-    color: red;
+    color: white;
     cursor: pointer; /* Add a mouse pointer on hover */
+  }
+
+  .BtnChptNav:hover {
+    background-color: #FF1493;
   }
 
   .BtnChptNav button {
     font-size: 140%;
     cursor: pointer; /* Add a mouse pointer on hover */
     background-color: black;
-    border-radius: 39%;
+    border-radius: 20%;
     border-width: 2px;
-    border-color: #9c31ff;
+    border-color: #ff0000;
   }
 
   /* SL Title */
