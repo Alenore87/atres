@@ -2,7 +2,7 @@ $.ajax({
   url: folder,
   success: async function (data) {
     // Crée une liste non ordonnée HTML
-    const ulList = $('<ul class="navigation">');
+    const ulList = $('<ul class="navigationEp">');
 
     // Obtenez l'URL de base pour construire les liens complets
     const baseUrl = new URL(folder, window.location.origin);
