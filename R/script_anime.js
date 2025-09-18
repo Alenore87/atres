@@ -64,6 +64,11 @@
                                     ulLink.append(lineLi);
                                 }
                             });
+                        } else if (contenu.includes("report")) {
+                            // Si le contenu inclut "report", crée un iframe affichant "Reporte"
+                            const reportIframe = $('<b><i><span>Reporté</span></b></i>');
+                            const reportLi = $('<li>').append(reportIframe);
+                            ulLink.append(reportLi);
                         } else {
                             // Sinon, crée des éléments de liste pour chaque ligne normalement
                             lines.forEach((line, index) => {
@@ -71,19 +76,18 @@
                                     const liLink = $('<li class="toggleSubMenuStream2">');
                                     const spanLink = $('<span>').text('Lien ' + (index + 1));
                                     liLink.append(spanLink);
-        
+
                                     // Crée une sous-liste pour les iframes
                                     const ulSubLink = $('<ul class="subMenuStream2">');
                                     const iframe = $('<iframe class="videoframe" data-src="' + line + '" src="" frameborder="0" marginwidth="0" marginheight="0" scrolling="NO" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>');
                                     ulSubLink.append(iframe);
                                     liLink.append(ulSubLink);
-        
+
                                     // Ajoute l'élément de lien à la sous-liste
                                     ulLink.append(liLink);
                                 }
                             });
                         }
-                    
 
                         // Ajoute la sous-liste de liens à l'élément de titre
                         liTitle.append(ulLink);
@@ -290,6 +294,12 @@
                                     ulLink.append(lineLi);
                                 }
                             });
+                        } else if (contenu.includes("report")) {
+                            // Si le contenu inclut "report", crée un iframe affichant "Reporte"
+                            const reportIframe = $('<iframe class="report-frame" frameborder="0" allowfullscreen>')
+                                .attr('src', 'data:text/html;charset=utf-8,' + encodeURIComponent('<h1>Reporte</h1>'));
+                            const reportLi = $('<li>').append(reportIframe);
+                            ulLink.append(reportLi);
                         } else {
                             // Sinon, crée un élément de liste pour le lien normal
                             lines.forEach((line, index) => {
