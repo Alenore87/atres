@@ -66,8 +66,8 @@
                             });
                         } else if (contenu.includes("report")) {
                             // Si le contenu inclut "report", crée un iframe affichant "Reporte"
-                            const reportIframe = $('<b><i><span>Reporté</span></b></i>');
-                            const reportLi = $('<li>').append(reportIframe);
+                            const reportIframe = $('<span><b><i>Reporté</i></b></span>');
+                            const reportLi = $('<li style="list-style-type: none; cursor: default;">').append(reportIframe);
                             ulLink.append(reportLi);
                         } else {
                             // Sinon, crée des éléments de liste pour chaque ligne normalement
@@ -297,8 +297,8 @@
                         } else if (contenu.includes("report")) {
                             // Si le contenu inclut "report", crée un iframe affichant "Reporte"
                             const reportIframe = $('<iframe class="report-frame" frameborder="0" allowfullscreen>')
-                                .attr('src', 'data:text/html;charset=utf-8,' + encodeURIComponent('<h1>Reporte</h1>'));
-                            const reportLi = $('<li>').append(reportIframe);
+                                .attr('src', 'data:text/html;charset=utf-8,' + encodeURIComponent('<span><b><i>Reporté</i></b></span>'));
+                            const reportLi = $('<li style="list-style-type: none; cursor: default;">').append(reportIframe);
                             ulLink.append(reportLi);
                         } else {
                             // Sinon, crée un élément de liste pour le lien normal
